@@ -1,0 +1,16 @@
+
+
+
+
+
+1. books api should be protected. Only an authenticated user should be allowed to create, update, or delete a book.
+
+2. update and delete api should also make sure that only an authorized user is updating or deleting a book.
+
+3. get all books api should support query paramters like
+
+a) userId="a-userId" => should return only books related to a user
+
+b) category="category-name" => should return only books that belongs to the "category-name"
+
+c) if multiple query paramters are there, then they should be considered in and clause
